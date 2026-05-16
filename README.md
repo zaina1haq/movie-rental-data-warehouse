@@ -44,10 +44,13 @@ movie-rental-dw/
 ├── step1_create_dw_schema.sql      # DDL: creates sakila_dw database & all tables
 ├── movie_rental_dw.ipynb           # ETL pipeline + business analytics (Jupyter)
 ├── query_results.txt               # Output of all 11 business question queries
-├── fileDB.sql                      # Source OLTP schema reference
+├── fileDB.sql                    # Source OLTP schema reference
+├── fMovieRental_DW_Final_Report.pdf  # Full project report
 │
-└── report/
-    └── MovieRental_DW_Final_Report.docx   # Full project report
+└── Results/
+    └── query_ressults
+    └──star_schema
+    └── 6 pictures of Visualization  
 ```
 
 ---
