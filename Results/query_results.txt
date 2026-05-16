@@ -1,0 +1,244 @@
+
+=================================================================
+  MOVIE RENTAL DATA WAREHOUSE — Business Question Results
+=================================================================
+
+=================================================================
+  BQ-1: Top 10 Most Frequently Rented Films
+=================================================================
+  title                category   total_rentals
+  -----------------------------------------------
+  BUCKET BROTHERHOOD   Travel     34           
+  ROCKETEER MOTHER     Foreign    33           
+  FORWARD TEMPLE       Games      32           
+  GRIT CLOCKWORK       Games      32           
+  JUGGLER HARDLY       Animation  32           
+  RIDGEMONT SUBMARINE  New        32           
+  SCALAWAG DUCK        Music      32           
+  TIMBERLAND SKY       Classics   31           
+  ZORRO ARK            Comedy     31           
+  GOODFELLAS SALUTE    Sci-Fi     31           
+
+=================================================================
+  BQ-2: Top 10 Films by Revenue
+=================================================================
+  title              category     total_revenue
+  -----------------------------------------------
+  TELEGRAPH VOYAGE   Music        231.73       
+  WIFE TURN          Documentary  223.69       
+  ZORRO ARK          Comedy       214.69       
+  GOODFELLAS SALUTE  Sci-Fi       209.69       
+  SATURDAY LAMBS     Sports       204.72       
+  TITANS JERK        Sci-Fi       201.71       
+  TORQUE BOUND       Drama        198.72       
+  HARRY IDAHO        Drama        195.70       
+  INNOCENT USUAL     Foreign      191.74       
+  HUSTLER PARTY      Comedy       190.78       
+
+=================================================================
+  BQ-3: Film Categories by Popularity & Revenue
+=================================================================
+  category     total_rentals  total_revenue
+  -------------------------------------------
+  Sports       1179           5314.21      
+  Animation    1166           4656.30      
+  Action       1112           4375.85      
+  Sci-Fi       1101           4756.98      
+  Family       1096           4226.07      
+  Drama        1060           4587.39      
+  Documentary  1050           4217.52      
+  Foreign      1033           4270.67      
+  Games        969            4281.33      
+  Children     945            3655.55      
+
+=================================================================
+  BQ-4: Store Performance (Rentals & Revenue)
+=================================================================
+  store_id  city        country    total_rentals  total_revenue
+  ---------------------------------------------------------------
+  2         Woodridge   Australia  8121           33726.77     
+  1         Lethbridge  Canada     7923           33679.79     
+
+=================================================================
+  BQ-5: Top 10 Customers by Rentals & Revenue
+=================================================================
+  full_name       city                 country        total_rentals  total_revenue
+  ----------------------------------------------------------------------------------
+  ELEANOR HUNT    Saint-Denis          Réunion        46             216.54       
+  KARL SEAL       Cape Coral           United States  45             221.55       
+  MARCIA DEAN     Tanza                Philippines    42             175.58       
+  CLARA SHAW      Molodetšno           Belarus        42             195.58       
+  TAMMY SANDERS   Changhwa             Taiwan         41             155.59       
+  WESLEY BULL     Ourense (Orense)     Spain          40             177.60       
+  SUE PETERS      Changzhou            China          40             154.60       
+  RHONDA KENNEDY  Apeldoorn            Netherlands    39             194.61       
+  TIM CARY        Bijapur              India          39             175.61       
+  MARION SNYDER   Santa Brbara dOeste  Brazil         39             194.61       
+
+=================================================================
+  BQ-6: Monthly Rental Activity & Revenue
+=================================================================
+  year  month_name  month_number  total_rentals  total_revenue
+  --------------------------------------------------------------
+  2005  May         5             1156           4823.44      
+  2005  June        6             2311           9629.89      
+  2005  July        7             6709           28368.91     
+  2005  August      8             5686           24070.14     
+  2006  February    2             182            514.18       
+
+=================================================================
+  MOVIE RENTAL DATA WAREHOUSE — Business Question Results
+=================================================================
+
+=================================================================
+  BQ-1: Top 10 Most Frequently Rented Films
+=================================================================
+  title                category     total_rentals
+  -------------------------------------------------
+  BUCKET BROTHERHOOD   Travel       34           
+  ROCKETEER MOTHER     Foreign      33           
+  SCALAWAG DUCK        Music        32           
+  JUGGLER HARDLY       Animation    32           
+  RIDGEMONT SUBMARINE  New          32           
+  FORWARD TEMPLE       Games        32           
+  GRIT CLOCKWORK       Games        32           
+  WIFE TURN            Documentary  31           
+  RUSH GOODFELLAS      Family       31           
+  GOODFELLAS SALUTE    Sci-Fi       31           
+
+=================================================================
+  BQ-2: Top 10 Films by Revenue
+=================================================================
+  title              category     total_revenue
+  -----------------------------------------------
+  TELEGRAPH VOYAGE   Music        231.73       
+  WIFE TURN          Documentary  223.69       
+  ZORRO ARK          Comedy       214.69       
+  GOODFELLAS SALUTE  Sci-Fi       209.69       
+  SATURDAY LAMBS     Sports       204.72       
+  TITANS JERK        Sci-Fi       201.71       
+  TORQUE BOUND       Drama        198.72       
+  HARRY IDAHO        Drama        195.70       
+  INNOCENT USUAL     Foreign      191.74       
+  HUSTLER PARTY      Comedy       190.78       
+
+=================================================================
+  BQ-3: Film Categories by Popularity & Revenue
+=================================================================
+  category     total_rentals  total_revenue
+  -------------------------------------------
+  Sports       1179           5314.21      
+  Animation    1166           4656.30      
+  Action       1112           4375.85      
+  Sci-Fi       1101           4756.98      
+  Family       1096           4226.07      
+  Drama        1060           4587.39      
+  Documentary  1050           4217.52      
+  Foreign      1033           4270.67      
+  Games        969            4281.33      
+  Children     945            3655.55      
+
+=================================================================
+  BQ-4: Store Performance (Rentals & Revenue)
+=================================================================
+  store_id  city        country    total_rentals  total_revenue
+  ---------------------------------------------------------------
+  2         Woodridge   Australia  8121           33726.77     
+  1         Lethbridge  Canada     7923           33679.79     
+
+=================================================================
+  BQ-5: Top 10 Customers by Rentals & Revenue
+=================================================================
+  full_name       city                 country        total_rentals  total_revenue
+  ----------------------------------------------------------------------------------
+  ELEANOR HUNT    Saint-Denis          Réunion        46             216.54       
+  KARL SEAL       Cape Coral           United States  45             221.55       
+  CLARA SHAW      Molodetšno           Belarus        42             195.58       
+  MARCIA DEAN     Tanza                Philippines    42             175.58       
+  TAMMY SANDERS   Changhwa             Taiwan         41             155.59       
+  WESLEY BULL     Ourense (Orense)     Spain          40             177.60       
+  SUE PETERS      Changzhou            China          40             154.60       
+  TIM CARY        Bijapur              India          39             175.61       
+  MARION SNYDER   Santa Brbara dOeste  Brazil         39             194.61       
+  RHONDA KENNEDY  Apeldoorn            Netherlands    39             194.61       
+
+=================================================================
+  BQ-6: Monthly Rental Activity & Revenue
+=================================================================
+  year  month_name  month_number  total_rentals  total_revenue
+  --------------------------------------------------------------
+  2005  May         5             1156           4823.44      
+  2005  June        6             2311           9629.89      
+  2005  July        7             6709           28368.91     
+  2005  August      8             5686           24070.14     
+  2006  February    2             182            514.18       
+
+=================================================================
+  BQ-7: Staff Performance
+=================================================================
+  full_name     rentals_processed  payments_collected
+  -----------------------------------------------------
+  Mike Hillyer  8040               33524.62          
+  Jon Stephens  8004               33881.94          
+
+=================================================================
+  BQ-8: Top 10 Cities by Customer Activity
+=================================================================
+  country         city                 unique_customers  total_rentals
+  ----------------------------------------------------------------------
+  United States   Aurora               2                 50           
+  United Kingdom  London               2                 48           
+  Réunion         Saint-Denis          1                 46           
+  United States   Cape Coral           1                 45           
+  Belarus         Molodetšno           1                 42           
+  Philippines     Tanza                1                 42           
+  Taiwan          Changhwa             1                 41           
+  China           Changzhou            1                 40           
+  Spain           Ourense (Orense)     1                 40           
+  Brazil          Santa Brbara dOeste  1                 39           
+
+=================================================================
+  BQ-9: Avg Rental Duration by Category
+=================================================================
+  category     avg_actual_days  avg_allowed_days
+  ------------------------------------------------
+  Sports       5.20             4.74            
+  Games        5.20             5.01            
+  Comedy       5.15             4.80            
+  Music        5.07             5.26            
+  Sci-Fi       5.06             4.78            
+  Documentary  5.06             4.65            
+  Family       5.05             5.16            
+  Horror       5.05             4.93            
+  Foreign      5.04             5.11            
+  Action       5.03             4.94            
+
+=================================================================
+  BQ-10: Top 10 Films Returned Late Most Often
+=================================================================
+  title                category     total_rentals  late_returns  late_pct
+  -------------------------------------------------------------------------
+  RIDGEMONT SUBMARINE  New          31             26            83.9    
+  BUTTERFLY CHOCOLAT   New          30             24            80.0    
+  TELEGRAPH VOYAGE     Music        27             24            88.9    
+  GRIT CLOCKWORK       Games        32             23            71.9    
+  CHANCE RESURRECTION  Sports       27             22            81.5    
+  ROCKETEER MOTHER     Foreign      33             22            66.7    
+  TIMBERLAND SKY       Classics     31             22            71.0    
+  EXPENDABLE STALLION  Documentary  28             21            75.0    
+  WIFE TURN            Documentary  31             21            67.7    
+  ENGLISH BULWORTH     Sci-Fi       30             21            70.0    
+
+=================================================================
+  BQ-11: Quarterly Revenue Trend
+=================================================================
+  year  quarter  quarterly_revenue
+  ----------------------------------
+  2005  Q2       14453.33         
+  2005  Q3       52439.05         
+  2006  Q1       514.18           
+
+=================================================================
+  All business questions answered successfully!
+=================================================================
+
